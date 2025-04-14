@@ -1,8 +1,3 @@
-/*
-  google-sheet.js fetches data from a Google Sheet and converts it to ScrollyData,
-  so the HTML page can be created with the data.
-*/
-
 import { ScrollyData, StoryData, StepData, ScrollyError } from "./common.js";
 
 // The Google Sheet below is a template. You can copy it to your Google Drive and use it to create your own scroll story.
@@ -14,7 +9,7 @@ import { ScrollyData, StoryData, StepData, ScrollyError } from "./common.js";
 // Also, you must Share the sheet so that anyone with a link can access it
 //     Share button at top right of sheet -> General Access -> Anyone with the link -> Viewer
 const googleSheetURL =
-  "https://docs.google.com/spreadsheets/d/1Nkq7DLecFxgwSs9tC0f_k0tTNTHPrsV3Bqf9L98aSuQ";
+  "https://docs.google.com/spreadsheets/d/1i3IjjkS9MCBgksd5z44Q2pQlsuojOPrOJkUTfJckqSA/edit?gid=1428114391#gid=1428114391";
 
 // An API Key is required to read a google sheet from an application. It is generated at https://console.developers.google.com
 // and if you plan to publish this scrolly story on your own standalone site, you will need to generate your own key.
